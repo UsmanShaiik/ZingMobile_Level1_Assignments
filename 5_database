@@ -1,0 +1,28 @@
+Step 1: Install MySQL Server
+Step 2: Start MySQL Server
+
+Step 3: Create Database and Table
+Open a terminal or command prompt.Log in to MySQL using the command line 
+
+Step 4:Create a new database for your application:-
+
+CREATE DATABASE CRUD;
+USE CRUD;
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    section VARCHAR(255) NOT NULL,
+    subject_marks JSON NOT NULL,
+    collegeId INT
+);
+INSERT INTO students (name, section, subject_marks, collegeId) VALUES
+('Peter', 'A', '{"math": 85, "science": 90, "history": 75}', 1),
+('parker', 'B', '{"math": 35, "science": 80, "history": 65}', 1),
+('Watson', 'B', '{"math": 76, "science": 70, "history": 85}', 1),
+('Munonye', 'A', '{"math": 80, "science": 60, "history": 95}', 1),
+('dube', 'A', '{"math": 89, "science": 69, "history": 98}', 1);
+
+
+Step 5: Update Node.js Application
+Step 6: Run the Node.js Application
+Step 7: Test the Endpoints

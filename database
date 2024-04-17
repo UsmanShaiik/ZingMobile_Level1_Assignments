@@ -1,0 +1,29 @@
+Step 1: CREATE DATABASE school;
+
+Step 2: Create a Table
+
+
+Step 3: USE school;
+
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    section VARCHAR(10),
+    math INT,
+    science INT,
+    history INT
+);
+
+
+Step 4:Insert Data
+INSERT INTO students (name, section, math, science, history) VALUES
+('Peter', 'A', 85, 90, 75),
+('parker', 'B', 35, 80, 65),
+('Watson', 'B', 76, 70, 85),
+('Munonye', 'A', 80, 60, 95),
+('dube', 'A', 89, 69, 98);
+
+Step 5: Verify Data:
+SELECT * FROM students;
+This query will retrieve all the records from the students table.
+

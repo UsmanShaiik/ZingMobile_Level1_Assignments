@@ -1,0 +1,39 @@
+{
+  "user1": {
+    "id":1,
+    "name":"Peter",
+    "section":"A",
+    "subject_marks": {"math": 85, "science": 90, "history": 75}
+  },
+
+  "user2": {
+    "id":1,
+    "name":"parker",
+    "section":"B",
+    "subject_marks": {"math": 35, "science": 80, "history": 65}
+  },
+
+
+  "user3": {
+    "id":1,
+    "name":"Watson",
+    "section":"B",
+    "subject_marks": {"math": 76, "science": 70, "history": 85}
+  },
+
+
+  "user4": {
+    "id":1,
+    "name":"Munonye",
+    "section":"A",
+    "subject_marks": {"math": 80, "science": 60, "history": 95}
+  },
+
+  "user5": {
+    "id":1,
+    "name":"dube",
+    "section":"A",
+    "subject_marks": {"math": 89, "science": 69, "history": 98}
+  }
+
+}
